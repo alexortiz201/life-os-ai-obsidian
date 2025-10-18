@@ -48,6 +48,7 @@ This manual shows you exactly how to use your **Life‑OS** inside Obsidian, wit
    - **Templater** — automation for notes
    - **Tracker** — habit/XP graphs
    - **Periodic Notes** — auto-create weekly/monthly notes
+   - **Hotkeys for templates** — hotkey (`cmd+shift+D`) - create daily logs
    - **Kanban** _(optional)_ — for Quests board
    - **Buttons** _(optional)_ — one-click actions
 3. Verify that they appear under **Installed plugins** and are **Enabled**.
@@ -119,6 +120,11 @@ You can later configure it to auto-create each week using **Periodic Notes**.
 **Set a Hotkey:**
 Go to **Settings → Hotkeys → Templater: Create new note from template** → assign `Ctrl/Cmd + Shift + D`.
 
+**Set a Hotkey: with Hotkeys for templates plug-in**
+Go to **Settings → Hotkeys → Hotkeys for templates: New file in <...> from <...>** → assign `Ctrl/Cmd + Shift + D`.
+
+> Repeat above for weekly dashboard and combine with Periodic Notes plug-in.
+
 ---
 
 ## 4) Daily Flow (What to Do Each Day)
@@ -147,7 +153,7 @@ Go to **Settings → Hotkeys → Templater: Create new note from template** → 
    Example: `Focus Arc: MCP Arc`.
 3. Review last week’s tasks and migrate forward important ones.
 4. Pull in 3–5 ideas from `/Life_OS/Core_System/Inputs/Adaptive_Suggestions.md` → move to `Curated_List.md`.
-5. (Optional) Copy `Weekly_Dashboard.md` → rename for the new week or auto-create via **Periodic Notes**.
+5. (Optional) Copy `Weekly_Dashboard_Template.md` → rename for the new week or auto-create via **Periodic Notes**.
 
 ---
 
@@ -190,8 +196,6 @@ summary:
 ```
 ````
 
-````
-
 **Usage:**
 
 - Add lines like `XP: 15` or tasks (`- [x] Journal`) in your Daily notes.
@@ -231,7 +235,7 @@ Add at the top of your dashboards:
 ```markdown
 - Enter Story Mode → [[/Life_OS/The_Architects_Odyssey/Character_Sheet]]
 - Return to Core → [[/Life_OS/Core_System/Weekly_Dashboard]]
-````
+```
 
 ---
 

@@ -60,12 +60,14 @@ The interactive wizard will:
 ```
 Life_OS/
 ├─ Core_System/               # Reality layer (Wealth, Health, Love, Evolution)
-├─ The_Architects_Odyssey/   # Lore layer (anime/RPG overlay)
+├─ The_Architects_Odyssey/    # Lore layer (anime/RPG overlay)
 ├─ Themes/                    # Active theme assets
 ├─ Expansion/                 # Theme mappings & JSONC manifests
 ├─ Templates/                 # Templater templates
+├─ Logs/                      # Routine inputs, daily logs and weekly dashboard
 ├─ Enhancement_Notes.md
-├─ tips.txt                   # Quick tips & setup guidance
+├─ Life_OS_Obsidian_User_Manual.md  # User manual
+├─ Tips.md                          # Quick tips & setup guidance
 └─ README.md
 ```
 
@@ -78,9 +80,11 @@ Enable these Community Plugins inside Obsidian:
 - Dataview – dynamic lists of Arcs & Quests
 - Tracker – XP and habit charts
 - Templater – reusable note templates
+- (Optional) Hotkeys for templates – allows hotkeys for create to be mapped <From-Template> into <Folder>
 - (Optional) Kanban / Style Settings for visual dashboards
+- (Optional) Periodic Notes - Automate Daily and Weekly templated notes
 
-_See tips.txt for setup details._
+_See Tips.md for setup details._
 
 ---
 
@@ -118,8 +122,8 @@ To design your own Lore overlay:
 After installation:
 
 1. Open Obsidian → Life OS vault.
-2. Read through tips.txt.
-3. Customize your Weekly Dashboard and Character Sheet.
+2. Read through Tips.md.
+3. Customize your Daily Notes, Weekly Dashboard and Character Sheet.
 4. (Optional) Commit your changes to GitHub to share your setup.
 
 ---

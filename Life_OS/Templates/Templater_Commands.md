@@ -1,6 +1,7 @@
 # Templater Commands
 
 ## Create a new Arc
+
 1. Create a new note in `The_Architects_Odyssey/Arcs/` and name it like `My_New_Arc.md`.
 2. Run Templater → "Insert Template" → choose `Templates/Arc_Template.md`.
 3. Fill frontmatter:
