@@ -1,4 +1,5 @@
 # 🧠 Obsidian Life OS — Core + Lore System
+
 <p align="left">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="version">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="license">
@@ -13,24 +14,26 @@ Welcome to **Obsidian Life OS**, a modular, dual-mode framework for builders, cr
 
 ## 📸 Screenshots & Demo
 
-| Mode | Preview | Description |
-|------|----------|-------------|
-| 🧭 **Core System** | ![Core Dashboard](./docs/screenshots/core_dashboard.png) | Your clean, structured weekly workflow. |
-| ⚔️ **The Architect’s Odyssey** | ![Lore Mode](./docs/screenshots/lore_mode.png) | Gamified, anime/RPG-style progression log. |
-| 🧩 **Themes System** | ![Themes Folder](./docs/screenshots/themes_folder.png) | Easily extensible — create your own theme expansions. |
+| Mode                           | Preview                                                  | Description                                           |
+| ------------------------------ | -------------------------------------------------------- | ----------------------------------------------------- |
+| 🧭 **Core System**             | ![Core Dashboard](./docs/screenshots/core_dashboard.png) | Your clean, structured weekly workflow.               |
+| ⚔️ **The Architect’s Odyssey** | ![Lore Mode](./docs/screenshots/lore_mode.png)           | Gamified, anime/RPG-style progression log.            |
+| 🧩 **Themes System**           | ![Themes Folder](./docs/screenshots/themes_folder.png)   | Easily extensible — create your own theme expansions. |
 
-> Add your screenshots under `/docs/screenshots/` and replace the file names above.
-
+> @TODO: Add your screenshots under `/docs/screenshots/` and replace the file names above.
 
 ## 🚀 Quick Install
 
 ### 1️⃣ Download
+
 Clone this repo or grab the latest release:
+
 ```bash
-git clone https://github.com/<your-username>/Obsidian_Life_OS.git
+git clone https://github.com/alexortiz201/life-os-ai-obsidian.git
 ```
 
 or download:
+
 - [OBSIDIAN_LIFE_OS_bundle.zip](./OBSIDIAN_LIFE_OS_bundle.zip)
 - [setup_life_os.command](./setup_life_os.command)
 
@@ -42,7 +45,9 @@ or download:
 chmod +x setup_life_os.command
 ./setup_life_os.command
 ```
+
 The interactive wizard will:
+
 1. Detect your Obsidian installation.
 2. Ask where your vaults live (or let you type a custom path).
 3. Unzip the bundle into `Life_OS/`.
@@ -51,6 +56,7 @@ The interactive wizard will:
 ---
 
 ### 🗂 Folder Structure
+
 ```
 Life_OS/
 ├─ Core_System/               # Reality layer (Wealth, Health, Love, Evolution)
@@ -68,49 +74,49 @@ Life_OS/
 ### 🧩 Plugins Required
 
 Enable these Community Plugins inside Obsidian:
--	Dataview – dynamic lists of Arcs & Quests
--	Tracker – XP and habit charts
--	Templater – reusable note templates
--	(Optional) Kanban / Style Settings for visual dashboards
 
+- Dataview – dynamic lists of Arcs & Quests
+- Tracker – XP and habit charts
+- Templater – reusable note templates
+- (Optional) Kanban / Style Settings for visual dashboards
 
-*See tips.txt for setup details.*
+_See tips.txt for setup details._
 
 ---
 
 ### 🎮 Modes
 
-| Mode | Focus | Entry Point |
-|------|--------|-------------|
-| 🧭 **Core System** | Real-world tasks & reflection | `Core_System/Weekly_Dashboard.md` |
-| ⚔️ **The Architect’s Odyssey** | Gamified story mode | `The_Architects_Odyssey/Character_Sheet.md` |
-
-
+| Mode                           | Focus                         | Entry Point                                 |
+| ------------------------------ | ----------------------------- | ------------------------------------------- |
+| 🧭 **Core System**             | Real-world tasks & reflection | `Core_System/Weekly_Dashboard.md`           |
+| ⚔️ **The Architect’s Odyssey** | Gamified story mode           | `The_Architects_Odyssey/Character_Sheet.md` |
 
 ### 🌌 Create Your Own Expansion / Theme
 
 To design your own Lore overlay:
-1.	Copy TEMPLATE_EXPANSION.jsonc and TEMPLATE_EXPANSION.md to Expansion/<YourThemeName>/.
-2.	Add your assets to Themes/<YourThemeName>/.
-3.	Adjust colors, icons, and plugins.
+
+1. Copy TEMPLATE_EXPANSION.jsonc and TEMPLATE_EXPANSION.md to Expansion/<YourThemeName>/.
+2. Add your assets to Themes/<YourThemeName>/.
+3. Adjust colors, icons, and plugins.
 
 `Obsidian Life OS will automatically map new realms and arcs from your manifest.`
-
 
 ---
 
 ### 🧠 Concept Overview
-	•	Realms: Wealth | Health | Love | Evolution
-	•	Arcs: Skill or project tracks (e.g., Front-End Arc, MCP Arc)
-	•	Quests: Main / Side / Daily objectives
-	•	XP System: Earn XP for actions (journaling, deep work, father-son lab, training)
-	•	Shadow Encounters: Moments of resistance turned into growth
+
+    •	Realms: Wealth | Health | Love | Evolution
+    •	Arcs: Skill or project tracks (e.g., Front-End Arc, MCP Arc)
+    •	Quests: Main / Side / Daily objectives
+    •	XP System: Earn XP for actions (journaling, deep work, father-son lab, training)
+    •	Shadow Encounters: Moments of resistance turned into growth
 
 ---
 
 ### 📈 Next Steps
 
 After installation:
+
 1. Open Obsidian → Life OS vault.
 2. Read through tips.txt.
 3. Customize your Weekly Dashboard and Character Sheet.
