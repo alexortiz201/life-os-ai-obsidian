@@ -1,0 +1,65 @@
+// JSONC: comments allowed; used to map theme into Core/Lore system
+{
+  "theme_name": "The_Architects_Odyssey",
+  "version": "1.0.0",
+  "description": "Anime \u00d7 RPG narrative overlay for the Core System.",
+  "realms": {
+    "wealth": {
+      "label": "Wealth Realm \u2014 The Forge",
+      "icon": "\ud83d\udcb0"
+    },
+    "love": {
+      "label": "Love Realm \u2014 The Hearth",
+      "icon": "\u2764\ufe0f"
+    },
+    "health": {
+      "label": "Health Realm \u2014 The Arena",
+      "icon": "\u26bd"
+    },
+    "evolution": {
+      "label": "Evolution Realm \u2014 The Sanctum",
+      "icon": "\ud83d\udd2e"
+    }
+  },
+  "arcs": {
+    "front_end": {
+      "label": "Front-End Arc \u2014 The Flowwright",
+      "file": "The_Architects_Odyssey/Arcs/Front_End_Arc.md"
+    },
+    "mcp": {
+      "label": "MCP Arc \u2014 Keeper of Protocols",
+      "file": "The_Architects_Odyssey/Arcs/MCP_Arc.md"
+    },
+    "recovery": {
+      "label": "Recovery Arc \u2014 The Patient Warrior",
+      "file": "The_Architects_Odyssey/Arcs/Recovery_Arc.md"
+    },
+    "integration": {
+      "label": "Integration Arc \u2014 The Sage\u2019s Thread",
+      "file": "The_Architects_Odyssey/Arcs/Integration_Arc.md"
+    }
+  },
+  "xp_rules": {
+    "deep_work": 10,
+    "soccer": 15,
+    "father_son_lab": 20,
+    "shadow_encounter": 25,
+    "journal": 5
+  },
+  "quest_types": [
+    "main",
+    "side",
+    "daily",
+    "shadow",
+    "event"
+  ],
+  "file_paths": {
+    "core_weekly": "Core_System/Weekly_Dashboard.md",
+    "core_toggle": "Core_System/Mode_Toggle.md",
+    "lore_character": "The_Architects_Odyssey/Character_Sheet.md",
+    "lore_toggle": "The_Architects_Odyssey/Return_To_Core.md"
+  },
+  "plugins_file": "Themes/The_Architects_Odyssey/plugins.md",
+  "palette_file": "Themes/The_Architects_Odyssey/color_palette.md",
+  "iconography_file": "Themes/The_Architects_Odyssey/iconography.md"
+}
