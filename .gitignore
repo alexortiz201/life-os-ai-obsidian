@@ -8,4 +8,7 @@ build/
 *.log
 *.tmp
 .github/
-# _Private/
+*.local.md
+
+# Life-OS private user data
+Life_OS/_Private/Personal_Context.md
