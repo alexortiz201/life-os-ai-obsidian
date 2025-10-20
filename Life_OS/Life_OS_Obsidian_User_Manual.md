@@ -60,11 +60,11 @@ This manual shows you exactly how to use your **Life‑OS** inside Obsidian, wit
 ### 2.1 Set your Template folder
 
 - Open **Settings → Core plugins → Templates → Template folder location**.
-- Set the folder path to: `/Life_OS/Core_System/` or `/Life_OS/Templates/` (if you moved templates there).
+- Set the folder path to: `/Life_OS/Core_System/` or `/Life_OS/Templates/` (if you moved all templates there).
 
 ### 2.2 Daily Note Template
 
-Open **`/Life_OS/Core_System/Daily_Template.md`** and customize if needed.
+Open **`/Life_OS/Core_System/Templates/Daily_Template.md`** and customize if needed.
 
 **Example:**
 
