@@ -1,5 +1,13 @@
+Weekly_Dashboard_Template
+<% await tp.file.rename(tp.date.now("YYYY-MM") + "-(" + tp.date.now("DD") + "-" + tp.date.now("DD", +7)+") Dashboard")%>
+
 # Weekly Dashboard
-Week of: 2025-10-18
+<% tp.date.now("YYYY-MM-DD") + " to " + tp.date.now("YYYY-MM-DD", +7)%>
+
+> 🔒 [Private Context Available](/Life_OS/_Private/Personal_Context.md)
+> 🔒 [Private Context Logs Available](/Life_OS/_Private/Logs)
+> *(For AI and local insights only)*
+
 
 ### Mode Toggle
 - [Enter Story Mode →](../The_Architects_Odyssey/Character_Sheet.md)
@@ -27,12 +35,12 @@ See Core_System/Inputs/Curated_List.md and Adaptive_Suggestions.md
 ---
 ## Dataview — Active Arcs (Lore)
 ```dataview
-TABLE file.name AS Arc, choice(contains(file.path, "The_Architects_Odyssey/Arcs"), "Lore Arc", "") AS Type
+TABLE file.name AS Arc, choice(contains(file.path, "Life_OS/The_Architects_Odyssey/Arcs"), "Lore Arc", "") AS Type
 FROM "The_Architects_Odyssey/Arcs"
 SORT file.name ASC
 ```
 ## Dataview — Quests (Main/Side/Daily)
 ```dataview
-LIST FROM "The_Architects_Odyssey/Quests"
+LIST FROM "Life_OS/The_Architects_Odyssey/Quests"
 SORT file.ctime DESC
 ```

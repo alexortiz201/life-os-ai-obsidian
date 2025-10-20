@@ -12,3 +12,4 @@ build/
 
 # Life-OS private user data
 Life_OS/_Private/Personal_Context.md
+Life_OS/_Private/Logs/**/*.md

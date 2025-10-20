@@ -2,7 +2,7 @@
 
 This manual shows you exactly how to use your **Life‑OS** inside Obsidian, with **explicit file paths** and **click-by-click** setup for plugins and workflows.
 
-> If you see a section like “Focus Arc,” this manual prefixes it with the actual note path so you can find it quickly (e.g., `/Life_OS/Core_System/Weekly_Dashboard.md`).
+> If you see a section like “Focus Arc,” this manual prefixes it with the actual note path so you can find it quickly (e.g., `/Life_OS/Core_System/Logs/Weekly_Dashboard.md`).
 
 ---
 
@@ -13,8 +13,8 @@ This manual shows you exactly how to use your **Life‑OS** inside Obsidian, wit
 
 **Your Life‑OS paths** (key ones):
 
-- `/Life_OS/Core_System/Weekly_Dashboard.md`
-- `/Life_OS/Core_System/Daily_Note_Template.md` (or `Templates/Daily_Template.md` if you renamed)
+- `/Life_OS/Core_System/Logs/Weekly_Dashboard.md`
+- `/Life_OS/Core_System/Logs/Daily.md`
 - `/Life_OS/Core_System/Inputs/Curated_List.md`
 - `/Life_OS/Core_System/Inputs/Adaptive_Suggestions.md`
 - `/Life_OS/Core_System/Reflections/Journal_Template.md`
@@ -64,7 +64,7 @@ This manual shows you exactly how to use your **Life‑OS** inside Obsidian, wit
 
 ### 2.2 Daily Note Template
 
-Open **`/Life_OS/Core_System/Daily_Note_Template.md`** and customize if needed.
+Open **`/Life_OS/Core_System/Daily_Template.md`** and customize if needed.
 
 **Example:**
 
@@ -94,18 +94,18 @@ Open **`/Life_OS/Core_System/Daily_Note_Template.md`** and customize if needed.
 > “I do not chase; everything I want chases me.”
 ```
 
-> 💡 If your bundle uses `Daily_Note_Template.md`, keep that name. If you prefer `Templates/Daily_Template.md`, update the template folder setting accordingly.
+> 💡 If your bundle uses `Daily_Template.md`, keep that name. If you prefer `Templates/Daily_Template.md`, update the template folder setting accordingly.
 
 ### 2.3 Weekly Dashboard Template
 
-Open **`/Life_OS/Core_System/Weekly_Dashboard.md`** — this is your primary weekly document.
+Open **`/Life_OS/Core_System/Templates/Weekly_Dashboard_Template.md`** — this is your primary weekly document.
 You can later configure it to auto-create each week using **Periodic Notes**.
 
 ---
 
 ## 3) Using Templater (exact steps)
 
-> You’ll use **Templater** to spawn Daily notes from `Daily_Note_Template.md`.
+> You’ll use **Templater** to spawn Daily notes from `Daily_Template.md`.
 
 1. Ensure **Templater** is installed and enabled (see §1.2).
 2. Go to **Settings → Templater**:
@@ -113,7 +113,7 @@ You can later configure it to auto-create each week using **Periodic Notes**.
    - (Optional) Enable **Trigger Templater on new file creation**.
 3. To create a new Daily note:
    - Press **Ctrl/Cmd + P** → search **Templater: Create new note from template** → press **Enter**.
-   - Select: `Daily_Note_Template.md`.
+   - Select: `Daily_Template.md`.
    - Name the file something like: `2025-10-18 - Daily`.
 4. The template will render (e.g., `<% tp.date.now() %>`). Fill it out as your daily journal.
 
@@ -148,12 +148,12 @@ Go to **Settings → Hotkeys → Hotkeys for templates: New file in <...> from <
 
 ## 5) Weekly Ritual (Sunday Reset)
 
-1. Open `/Life_OS/Core_System/Weekly_Dashboard.md`.
+1. Open `/Life_OS/Core_System/Logs/Weekly_Dashboard.md`.
 2. Set **Theme** (intention for the week) and **Focus Arc**.
    Example: `Focus Arc: MCP Arc`.
 3. Review last week’s tasks and migrate forward important ones.
 4. Pull in 3–5 ideas from `/Life_OS/Core_System/Inputs/Adaptive_Suggestions.md` → move to `Curated_List.md`.
-5. (Optional) Copy `Weekly_Dashboard_Template.md` → rename for the new week or auto-create via **Periodic Notes**.
+5. (Optional) Copy `/Templates/Weekly_Dashboard_Template.md` → rename for the new week or auto-create via **Periodic Notes**.
 
 ---
 
@@ -161,7 +161,7 @@ Go to **Settings → Hotkeys → Hotkeys for templates: New file in <...> from <
 
 These blocks are already included inside:
 
-- `/Life_OS/Core_System/Weekly_Dashboard.md`
+- `/Life_OS/Core_System/Logs/Weekly_Dashboard.md`
 - `/Life_OS/The_Architects_Odyssey/Character_Sheet.md`
 - `/Life_OS/The_Architects_Odyssey/Quests/Main_Quests.md`
 - `/Life_OS/The_Architects_Odyssey/Realms/*_Realm.md`
@@ -207,8 +207,8 @@ summary:
 
 1. Install and enable **Periodic Notes**.
 2. Go to **Settings → Periodic Notes**:
-   - **Daily** → Format `YYYY-MM-DD`, Template `/Life_OS/Core_System/Daily_Note_Template.md`
-   - **Weekly** → Format `gggg-[W]ww`, Template `/Life_OS/Core_System/Weekly_Dashboard.md`
+   - **Daily** → Format `YYYY-MM-DD`, Template `/Life_OS/Core_System/Templates/Daily_Template.md`
+   - **Weekly** → Format `gggg-[W]ww`, Template `/Life_OS/Core_System/Templates/Weekly_Dashboard_Template.md`
 3. Use the **Command Palette** → “Periodic Notes: Open daily note” to generate.
 
 ---
@@ -234,7 +234,7 @@ Add at the top of your dashboards:
 
 ```markdown
 - Enter Story Mode → [[/Life_OS/The_Architects_Odyssey/Character_Sheet]]
-- Return to Core → [[/Life_OS/Core_System/Weekly_Dashboard]]
+- Return to Core → [[/Life_OS/Core_System/Templates/Weekly_Dashboard_Template]]
 ```
 
 ---
@@ -273,7 +273,7 @@ Add XP to `/Life_OS/Expansion/The_Architects_Odyssey/XP_Log.md`.
 ## 14) Quick Routines (Cheat Sheet)
 
 - **Morning (5 min):**
-  Open `/Life_OS/Core_System/Weekly_Dashboard.md` → review goals → open Daily note.
+  Open `/Life_OS/Core_System/Logs/Weekly_Dashboard.md` → review goals → open Daily note.
 
 - **Evening (5 min):**
   Fill Reflection → tick XP → append to `/Life_OS/Expansion/The_Architects_Odyssey/XP_Log.md`.
@@ -293,7 +293,7 @@ Add XP to `/Life_OS/Expansion/The_Architects_Odyssey/XP_Log.md`.
 
 ### ✅ You’re Ready
 
-Start with `/Life_OS/Core_System/Weekly_Dashboard.md` (Core Mode).
+Start with `/Life_OS/Core_System/Logs/Weekly_Dashboard.md` (Core Mode).
 Switch to `/Life_OS/The_Architects_Odyssey/Character_Sheet.md` (Lore Mode) when you want narrative flow.
 
 > Build your world, Architect. ✨
